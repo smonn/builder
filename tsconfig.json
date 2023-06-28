@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@tsconfig/recommended/tsconfig",
+    "@tsconfig/strictest/tsconfig",
+    "@tsconfig/node18/tsconfig"
+  ],
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [
+    "src"
+  ]
+}
