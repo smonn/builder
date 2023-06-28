@@ -40,15 +40,15 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "name": "@smonn/builder",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smonn/builder.git"
+  },
   "scripts": {
     "build": "tsup src/index.ts --sourcemap --format cjs,esm --dts src/index.ts",
     "test": "ava",
     "test:coverage": "c8 ava"
   },
   "types": "dist/index.d.ts",
-  "version": "0.0.2",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:smonn/builder.git"
-  }
+  "version": "0.0.3"
 }
